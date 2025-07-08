@@ -1,5 +1,5 @@
 import BookAndContact from "./BookAndContact"
-import Ins from "./ins"
+import Ins from "./Ins"
 export default function BodyMidlnading() {
   return (
     <div>

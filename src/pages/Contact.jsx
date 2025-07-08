@@ -54,7 +54,7 @@ export default function Contact() {
   <input value={fname} onChange={(e) => setFname(e.target.value)} className="border rounded-full px-5 py-1.5 my-2 w-full" type="text" placeholder="Enter your first name" />
   </div>
   <div className="mx-4">
-     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" className="absolute top-70 right-56 lucide lucide-user-round-icon lucide-user-round lg:top-18 lg:right-140.5"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" className="absolute top-70 right-46 lucide lucide-user-round-icon lucide-user-round lg:top-18 lg:right-140.5"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
   <label htmlFor="">Last Name</label>
   <input value={sname} onChange={(e) => setSname(e.target.value)}  className="border rounded-full px-5 py-1.5 my-2 w-full" type="text" placeholder="Enter your last name" />
   </div>
